@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker-compose --project-directory docker/ -f docker/docker-compose.yml up -d
