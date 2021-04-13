@@ -1,5 +1,12 @@
 # docker-apache-php-test
 
+## Commands
+
+Start container 
+`docker-compose up -d`
+
+Stop container 
+`docker-compose down`
 
 ## Links
 
