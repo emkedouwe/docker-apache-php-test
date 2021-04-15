@@ -3,10 +3,29 @@
 ## Commands
 
 Start container 
-`docker-compose up -d`
+```
+docker-compose up -d
+```
 
 Stop container 
-`docker-compose down`
+```
+docker-compose down
+```
+
+Lists the volumes, which are commonly used for persisting data of Docker containers.
+```
+docker volume ls
+```
+
+Stops one or more containers. 
+```
+docker stop mycontainer
+```
+
+Stop all containers
+```
+docker stop $(docker ps -a -q)
+```
 
 ## Links
 
