@@ -12,6 +12,11 @@ Stop container
 docker-compose down
 ```
 
+List the active containers
+```
+docker ps
+```
+
 Lists the volumes, which are commonly used for persisting data of Docker containers.
 ```
 docker volume ls
